@@ -1,0 +1,70 @@
+C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1>pyinstaller --onefile -w uvm_code_generator.py --windowed --icon icon.png
+201 INFO: PyInstaller: 6.11.1, contrib hooks: 2025.1
+203 INFO: Python: 3.12.5
+233 INFO: Platform: Windows-11-10.0.26100-SP0
+233 INFO: Python environment: C:\Users\Admin\AppData\Local\Programs\Python\Python312
+233 INFO: wrote C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1\uvm_code_generator.spec
+246 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\Admin\\Downloads\\python_exercises\\uvm\\uiux\\gen1']
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.5)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+1135 INFO: checking Analysis
+1136 INFO: Building Analysis because Analysis-00.toc is non existent
+1136 INFO: Running Analysis Analysis-00.toc
+1136 INFO: Target bytecode optimization level: 0
+1136 INFO: Initializing module dependency graph...
+1137 INFO: Initializing module graph hook caches...
+1149 INFO: Analyzing base_library.zip ...
+2263 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+2335 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+3723 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+4891 INFO: Caching module dependency graph...
+4986 INFO: Looking for Python shared library...
+4989 INFO: Using Python shared library: C:\Users\Admin\AppData\Local\Programs\Python\Python312\python312.dll
+4989 INFO: Analyzing C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1\uvm_code_generator.py
+5019 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+5021 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+5207 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+5243 INFO: Processing module hooks (post-graph stage)...
+5247 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+5257 INFO: Performing binary vs. data reclassification (925 entries)
+5336 INFO: Looking for ctypes DLLs
+5340 INFO: Analyzing run-time hooks ...
+5341 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+5344 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+5372 INFO: Looking for dynamic libraries
+5504 INFO: Extra DLL search directories (AddDllDirectory): []
+5504 INFO: Extra DLL search directories (PATH): []
+5638 INFO: Warnings written to C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1\build\uvm_code_generator\warn-uvm_code_generator.txt
+5657 INFO: Graph cross-reference written to C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1\build\uvm_code_generator\xref-uvm_code_generator.html
+5690 INFO: checking PYZ
+5690 INFO: Building PYZ because PYZ-00.toc is non existent
+5690 INFO: Building PYZ (ZlibArchive) C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1\build\uvm_code_generator\PYZ-00.pyz
+5976 INFO: Building PYZ (ZlibArchive) C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1\build\uvm_code_generator\PYZ-00.pyz completed successfully.
+5999 INFO: checking PKG
+5999 INFO: Building PKG because PKG-00.toc is non existent
+5999 INFO: Building PKG (CArchive) uvm_code_generator.pkg
+8903 INFO: Building PKG (CArchive) uvm_code_generator.pkg completed successfully.
+8924 INFO: Bootloader C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+8924 INFO: checking EXE
+8924 INFO: Building EXE because EXE-00.toc is non existent
+8924 INFO: Building EXE from EXE-00.toc
+8924 INFO: Copying bootloader EXE to C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1\dist\uvm_code_generator.exe
+8989 INFO: Copying icon to EXE
+9112 INFO: Copying 0 resources to EXE
+9112 INFO: Embedding manifest in EXE
+9156 INFO: Appending PKG archive to EXE
+13505 INFO: Fixing EXE headers
+23475 INFO: Building EXE from EXE-00.toc completed successfully.
+
+C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen1>
